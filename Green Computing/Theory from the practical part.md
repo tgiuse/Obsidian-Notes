@@ -125,7 +125,7 @@ This type of networks offer a different approach to traditional multi-layer perc
 
 ---
 Data distillation represents a powerful technique for creating more sustainable machine learning practices.
-The fundamental concept involves synthesizing small, high fidelity data summaries
+The fundamental concept involves synthesizing small, high fidelity data summaries that capture the most important knowledge from larger target datasets.
 
 
 
