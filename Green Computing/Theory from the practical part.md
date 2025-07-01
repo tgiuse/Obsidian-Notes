@@ -124,7 +124,8 @@ Training deep learning models impacts heavily the environment because of the mas
 This type of networks offer a different approach to traditional multi-layer perceptrons. They compute values as probability estimates of class membership instead of direct classification. The key advantage lies in the classification of lazy learning  models, instead of assigning weights to the neurons through backpropagation, PNNs simply assign values to weights based on the training data structure. 
 
 ---
-Data distillation represents a powerful technique for creating more sustainable 
+Data distillation represents a powerful technique for creating more sustainable machine learning practices.
+The fundamental concept involves synthesizing small, high fidelity data summaries
 
 
 
