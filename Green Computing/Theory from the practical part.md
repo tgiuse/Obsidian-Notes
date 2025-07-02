@@ -155,7 +155,9 @@ Steps involved in data distillation process:
 
 ## Hardware Efficiency
 
-Energy efficiency is the cornerstone of the principles of Green Computing 
+Energy efficiency is the cornerstone of the principles of Green Computing, requiring designers to create components that consume minimal power during operation while maintaining performance standards. 
+Sustainable materials play a crucial role in reducing environmental impact. This involves selecting recyclable and biodegradable materials sourced through sustainable practices, thereby minimizing the ecological footprint of raw material extraction and manufacturing processes. The emphasis on sustainable sourcing extends throughout the supply chain.
+
 
 
 
