@@ -180,7 +180,18 @@ Smart resource management incorporates technologies that optimize resource utili
 
 # Seventh File
 
-#missing pruning
+## Neural Network Pruning 
+
+Neural network pruning addresses computational efficiency by removing network components that contribute minimally to overall performance. This technique creates more efficient models requiring less computational power and memory, making them suitable for deployment on resource-constrained devices while maintaining acceptable performance levels.
+
+Weight pruning removes individual weights that fall below specified thresholds, effectively zeroing out less important connections. This approach creates sparser networks with fewer active parameters, reducing computational requirements during both training and inference phases.
+
+Neuron pruning removes entire neurons or nodes based on their contribution to model accuracy. This method typically involves analyzing each neuron's impact on overall performance and eliminating those with minimal influence. Neuron pruning often provides more significant efficiency gains than weight pruning while maintaining model interpretability.
+
+Structured pruning removes entire network structures such as channels, filters, or layers rather than individual components. This approach often yields better performance improvements on standard hardware because it maintains regular computational patterns that processors can handle efficiently.
+
+
+## Transfer Learning
 
 Transfer learning is one of the most powerful techniques in modern machine learning. This concept mirrors how humans learn new skills by building upon existing knowledge and experience.
 Consider the analogy of a skilled guitar player learning to play the ukulele. The musician's existing knowledge of finger positioning, music theory, rhythm (...) directly accelerates the learning process for the new instrument.
