@@ -184,11 +184,13 @@ Smart resource management incorporates technologies that optimize resource utili
 
 Neural network pruning addresses computational efficiency by removing network components that contribute minimally to overall performance. This technique creates more efficient models requiring less computational power and memory, making them suitable for deployment on resource-constrained devices while maintaining acceptable performance levels.
 
-Weight pruning removes individual weights that fall below specified thresholds, effectively zeroing out less important connections. This approach creates sparser networks with fewer active parameters, reducing computational requirements during both training and inference phases.
+There are several approaches to pruning:
 
-Neuron pruning removes entire neurons or nodes based on their contribution to model accuracy. This method typically involves analyzing each neuron's impact on overall performance and eliminating those with minimal influence. Neuron pruning often provides more significant efficiency gains than weight pruning while maintaining model interpretability.
+**Weight pruning** removes individual weights that fall below specified thresholds, effectively zeroing out less important connections. This approach creates sparser networks with fewer active parameters, reducing computational requirements during both training and inference phases.
 
-Structured pruning removes entire network structures such as channels, filters, or layers rather than individual components. This approach often yields better performance improvements on standard hardware because it maintains regular computational patterns that processors can handle efficiently.
+**Neuron pruning** removes entire neurons or nodes based on their contribution to model accuracy. This method typically involves analyzing each neuron's impact on overall performance and eliminating those with minimal influence. Neuron pruning often provides more significant efficiency gains than weight pruning while maintaining model interpretability.
+
+**Structured pruning** removes entire network structures such as channels, filters, or layers rather than individual components. This approach often yields better performance improvements on standard hardware because it maintains regular computational patterns that processors can handle efficiently.
 
 
 ## Transfer Learning
@@ -207,3 +209,6 @@ There are three concepts related to transfer learning:
 1. **Multi-task learning** extends transfer learning principles by training single models to perform multiple related tasks simultaneously. These models feature shared early layers that process data in common ways, followed by task-specific layers that handle the unique requirements of each task. This architecture enables models to learn general features useful across all tasks while maintaining specialized capabilities for specific applications.
 2. **Feature extraction** represents a focused application of transfer learning where pre-trained models extract meaningful features from new data. These extracted features then serve as input for specialized models designed for specific tasks. The process leverages neural networks' ability to automatically identify important data characteristics, applying only the pre-trained first and intermediate layers that contain generalizable knowledge while adapting the final layers for new tasks.
 3. **Fine-tuning** goes beyond simple feature extraction by continuing the training process on domain-specific datasets. This technique proves particularly valuable when source and target tasks differ significantly, as it allows the model to adapt its learned representations to new domains. Most large language models today excel at general tasks but require fine-tuning to achieve optimal performance on specific applications.
+
+There are two main applications for Transfer Learning:
+
