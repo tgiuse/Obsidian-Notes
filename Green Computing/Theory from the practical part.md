@@ -233,3 +233,10 @@ Transfer learning can be useful for green computing in several  ways:
 2. **Faster Training Times** - Less energy through quicker development cycles
 3. **Improved Performance with Less Data** - Reduces environmental impact of data collection
 4. **Environmental Monitoring Applications** - Direct support for climate prediction and conservation
+
+---
+## Green Computing Framework
+
+The comprehensive green computing framework encompasses four key components that work together to create more sustainable AI systems.
+
+**Measures of greenness** provide metrics for evaluating computational resource requirements and environmental impact. Direct metrics include running time, power consumption, and model size, while indirect metrics focus on carbon emissions and broader environmental effects.
