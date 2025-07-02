@@ -146,7 +146,7 @@ Steps involved in data distillation process:
 
 **Retraining the model**: Train a new neural network model using distilled dataset. This model should perform better or similar to the initial model while using fewer resources.
 
-**Evaluation**: Assess the performance
+**Evaluation**: Assess the performance of the newly trained model on a validation set
 
 
 
