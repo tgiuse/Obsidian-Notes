@@ -155,9 +155,22 @@ Steps involved in data distillation process:
 
 ## Hardware Efficiency
 
+How can we improve hardware efficiency?
+* 
+
 Energy efficiency is the cornerstone of the principles of Green Computing, requiring designers to create components that consume minimal power during operation while maintaining performance standards. 
+
 Sustainable materials play a crucial role in reducing environmental impact. This involves selecting recyclable and biodegradable materials sourced through sustainable practices, thereby minimizing the ecological footprint of raw material extraction and manufacturing processes. The emphasis on sustainable sourcing extends throughout the supply chain.
 
+Longevity and durability represent essential design considerations. Hardware built to last longer reduces the frequency of replacements, directly decreasing electronic waste generation. This approach requires robust engineering and quality materials that can withstand extended use without degrading performance.
+
+Modularity enables users to upgrade and repair individual components rather than replacing entire systems. This design philosophy extends hardware lifespan by allowing selective improvements and repairs, reducing overall waste generation. Modular designs also facilitate easier maintenance and customization.
+
+Recyclability ensures that hardware can be efficiently disassembled and processed at the end of its useful life. This principle requires designing products with separation and material recovery in mind, facilitating responsible disposal and enabling valuable material reclamation.
+
+Low emissions manufacturing focuses on reducing environmental impact during production, transportation, and disposal phases. This involves optimizing manufacturing processes, selecting low-impact transportation methods, and ensuring proper end-of-life handling.
+
+Smart resource management incorporates technologies that optimize resource utilization throughout the hardware lifecycle. Dynamic power management adjusts energy consumption based on current needs, while virtualization technologies maximize hardware utilization efficiency by enabling multiple applications to share resources effectively.
 
 
 
