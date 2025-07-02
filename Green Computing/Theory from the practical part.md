@@ -155,8 +155,13 @@ Steps involved in data distillation process:
 
 ## Hardware Efficiency
 
+Embodied carbon refers to the total greenhouse gas emissions associated with the entire life cycle of a product or building, from raw material extraction to manufacturing, transportation, construction, use, and disposal. It's essentially the carbon footprint of everything that goes into creating something, before it's even put to use.
+
+If we take into account the embodied carbon, it is clear that by the time we come to buy a device, it has already emitted a good amount of carbon.
+
 How can we improve hardware efficiency?
-* 
+* extending the lifespan 
+* increasing the utilization
 
 Energy efficiency is the cornerstone of the principles of Green Computing, requiring designers to create components that consume minimal power during operation while maintaining performance standards. 
 
