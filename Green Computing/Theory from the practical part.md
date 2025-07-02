@@ -131,9 +131,13 @@ Steps involved in data distillation process:
 
 **Data collection**: assemble a diverse dataset that is relevant to the task you want the neural network to perform.
 
-**Data preprocessing**: clean the dataset by addressing issues such as missing values, noise reduction, and normalization of input features. This may also include encoding categorical variables 
+**Data preprocessing**: clean the dataset by addressing issues such as missing values, noise reduction, and normalization of input features. This may also include encoding categorical variables and splitting the dataset into training , validation, and test sets.
 
-For creating the distilled datasets we must take account of the data selection. There are three strategies for sampling:
+**Initial model training** : train an initial neural network using the complete dataset. This is a reference point for evaluating the effectiveness of the distillation process.
+
+**Prediction generation**: Use the trained model to make predictions on the dataset. This step generates output labels that can help identify which data points are informative 
+
+**Data selection for di**There are three strategies for sampling:
 1. **Uncertain sampling**: identifies data points where the model shows least confidence, indicating areas where additional training may grant maximum benefit.
 2. **High-confidence sampling**: selects examples where the model performs exceptionally well preserving clear examples of correct behavior.
 3. 
