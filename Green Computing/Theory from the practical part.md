@@ -192,6 +192,7 @@ There are several approaches to pruning:
 
 **Structured pruning** removes entire network structures such as channels, filters, or layers rather than individual components. This approach often yields better performance improvements on standard hardware because it maintains regular computational patterns that processors can handle efficiently.
 
+--- 
 
 ## Transfer Learning
 
@@ -222,3 +223,8 @@ Transfer learning faces several significant challenges that practitioners must a
 **Domain mismatch** occurs when source and target tasks differ substantially, limiting the effectiveness of knowledge transfer. The technique works best when tasks share underlying similarities, but performance degrades when domains are too dissimilar.
 **Data scarcity** remains a concern even with transfer learning, as some minimum amount of target domain data is always required. Extremely limited or poor-quality training data can lead to underfitting, where models fail to capture important patterns in the new domain.
 
+**Overfitting** represents another significant challenge, as excessive fine-tuning can cause models to learn task-specific features that don't generalize well to new data. This problem requires careful monitoring and regularization techniques to prevent models from becoming too specialized.
+
+**Complexity** issues arise when target tasks are inherently difficult or when fine-tuning processes become challenging, costly, and time-consuming. These situations require careful planning and potentially different approaches to achieve acceptable results.
+
+Transfer learning can be useful for green computing 
