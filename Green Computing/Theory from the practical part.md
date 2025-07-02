@@ -240,3 +240,12 @@ Transfer learning can be useful for green computing in several  ways:
 The comprehensive green computing framework encompasses four key components that work together to create more sustainable AI systems.
 
 **Measures of greenness** provide metrics for evaluating computational resource requirements and environmental impact. Direct metrics include running time, power consumption, and model size, while indirect metrics focus on carbon emissions and broader environmental effects.
+
+**Energy-efficient AI** techniques optimize the entire lifecycle of AI models, from initial design through training and deployment. These methods include specialized optimization techniques for large language models that reduce power consumption during both training and inference phases.
+
+**Energy-efficient computing systems** focus on optimizing resource consumption across entire computing infrastructures. This includes cluster resource scheduling, intelligent partitioning strategies, and data management optimization techniques that minimize energy usage while maintaining performance.
+
+**AI for sustainability** represents the application of artificial intelligence technologies to improve environmental outcomes. This includes environmental applications such as leveraging satellite imagery for pollution monitoring and carbon sequestration estimation, as well as engineering applications like optimized cryptography for database security and resource management systems.
+
+
+
