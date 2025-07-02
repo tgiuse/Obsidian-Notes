@@ -6,6 +6,7 @@
 
 
 # Fourth File
+
 Why do software carbon emissions matter?
 
 > [!NOTE] Why do software carbon emissions matter?
@@ -177,6 +178,8 @@ Low emissions manufacturing focuses on reducing environmental impact during prod
 
 Smart resource management incorporates technologies that optimize resource utilization throughout the hardware lifecycle. Dynamic power management adjusts energy consumption based on current needs, while virtualization technologies maximize hardware utilization efficiency by enabling multiple applications to share resources effectively.
 
+# Seventh File
 
+Transfer learning is one of the most powerful techniques in modern learning  
 
 
