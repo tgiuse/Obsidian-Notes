@@ -141,7 +141,12 @@ Steps involved in data distillation process:
 1. **Uncertain sampling**: identifies data points where the model shows least confidence, indicating areas where additional training may grant maximum benefit.
 2. **High-confidence sampling**: selects examples where the model performs exceptionally well preserving clear examples of correct behavior.
 3. **Diversity sampling**: ensures that the selected subset covers a wide range of scenarios
-**Creating the distilled dataset**
+
+**Creating the distilled dataset**: Forms a new smaller dataset from the selected examples. 
+
+**Retraining the model**: Train a new neural network model using distilled dataset. This model should perform better or similar to the initial model while using fewer resources.
+
+**Evaluation**: Assess the performance
 
 
 
