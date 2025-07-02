@@ -127,7 +127,11 @@ This type of networks offer a different approach to traditional multi-layer perc
 Data distillation represents a powerful technique for creating more sustainable machine learning practices.
 The fundamental concept involves synthesizing small, high fidelity data summaries that capture the most important knowledge from larger target datasets. These  distilled summaries serve as effective replacements for the original datasets.
 
-Steps involved in 
+Steps involved in data distillation process:
+
+**Data collection**: assemble a diverse dataset that is relevant to the task you want the neural network to perform.
+
+**Data preprocessing**: clean the dataset by addressing issues such as missing values, noise reduction, and normalization of input features. This may also include encoding categorical variables 
 
 For creating the distilled datasets we must take account of the data selection. There are three strategies for sampling:
 1. **Uncertain sampling**: identifies data points where the model shows least confidence, indicating areas where additional training may grant maximum benefit.
