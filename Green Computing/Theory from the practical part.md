@@ -141,6 +141,7 @@ Steps involved in data distillation process:
 1. **Uncertain sampling**: identifies data points where the model shows least confidence, indicating areas where additional training may grant maximum benefit.
 2. **High-confidence sampling**: selects examples where the model performs exceptionally well preserving clear examples of correct behavior.
 3. **Diversity sampling**: ensures that the selected subset covers a wide range of scenarios
+**Creating the distilled dataset**
 
 
 
