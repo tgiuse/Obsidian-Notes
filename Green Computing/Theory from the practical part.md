@@ -155,7 +155,7 @@ Steps involved in data distillation process:
 
 ## Hardware Efficiency
 
-Energy efficiency is the cornerstone of the principles of Green Computing
+Energy efficiency is the cornerstone of the principles of Green Computing 
 
 
 
