@@ -218,3 +218,7 @@ Computer vision represents one of the most successful application areas for tran
 **Natural language processing**
 Natural language processing leverages transfer learning through pre-trained language models that understand general language patterns and structures. These models can then be fine-tuned for specific applications such as sentiment analysis, language translation, or document summarization. The versatility of transfer learning in NLP has enabled the development of sophisticated applications including voice assistants and speech recognition systems.
 
+Transfer learning faces several significant challenges that practitioners must address carefully.
+**Domain mismatch** occurs when source and target tasks differ substantially, limiting the effectiveness of knowledge transfer. The technique works best when tasks share underlying similarities, but performance degrades when domains are too dissimilar.
+**Data scarcity** remains a concern even with transfer learning, as some minimum amount of target domain data is always required. Extremely limited or poor-quality training data can lead to underfitting, where models fail to capture important patterns in the new domain.
+
