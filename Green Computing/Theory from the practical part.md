@@ -124,6 +124,9 @@ Training deep learning models impacts heavily the environment because of the mas
 This type of networks offer a different approach to traditional multi-layer perceptrons. They compute values as probability estimates of class membership instead of direct classification. The key advantage lies in the classification of lazy learning  models, instead of assigning weights to the neurons through backpropagation, PNNs simply assign values to weights based on the training data structure. 
 
 ---
+
+## Data Distillation
+
 Data distillation represents a powerful technique for creating more sustainable machine learning practices.
 The fundamental concept involves synthesizing small, high fidelity data summaries that capture the most important knowledge from larger target datasets. These  distilled summaries serve as effective replacements for the original datasets.
 
@@ -146,7 +149,14 @@ Steps involved in data distillation process:
 
 **Retraining the model**: Train a new neural network model using distilled dataset. This model should perform better or similar to the initial model while using fewer resources.
 
-**Evaluation**: Assess the performance of the newly trained model on a validation set
+**Evaluation**: Assess the performance of the newly trained model on a validation set and compare the performances.
+
+---
+
+## Hardware Efficiency
+
+Energy efficiency is the cornerstone of the principles of Green Computing
+
 
 
 
