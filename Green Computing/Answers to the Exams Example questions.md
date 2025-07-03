@@ -12,5 +12,29 @@
    
    - Algorithmic Optimization: 
      Making algorithms more efficient has significant benefits, including reducing their environmental footprint. A productive strategy is designing optimization techniques that reduce computational resource requirements, thereby minimizing energy consumption.
-   - 
- 
+   - Hardware Optimization:
+	Choosing more computationally efficient hardware directly contributes to energy savings.
+	Some graphic processing units (GPUs) offer substantially higher efficiency in terms of floating-point
+	operations per second (FLOPS) per watt of power usage compared to others.
+	Specialized hardware accelerators, such as tensor processing units (TPUs), are tailored specifically for
+	ML tasks and can be customized for specific ML models.
+	Edge computing is a key strategy where computation is performed at the locations where data is collected
+	or used. This avoids the need to transmit data to a data center or the cloud, and adapts to the limited
+	computational and energy resources of IoT devices
+   - Data Center Optimization:
+	The carbon footprint of a data center is directly proportional to its efficiency and the carbon intensity of its
+	location.
+	The carbon intensity of the location is a critical factor, given the significant variability between countries
+	(e.g., less than 20 gCO2e kWh⁻¹ in Norway and Switzerland vs. over 800 gCO2e kWh⁻¹ in Australia, South
+	Africa, and some US states).
+	To optimize data center use, researchers have developed algorithms and frameworks that dynamically
+	manage server loads, adjust cooling systems, and optimize resource allocation.
+
+ 9. Transfer Learning (TL) is a machine learning methodology focused on transferring knowledge across different domains. Its primary goal is to leverage knowledge gained from a related "source domain" to improve learning performance or minimize the number of labeled examples needed in a "target domain". This approach is particularly valuable when collecting sufficient labeled training data for a new task is expensive, time-consuming, or unrealistic.TL contributes to "Green AI" through several mechanisms:
+	● Less Training = Less Energy: It bypasses the need to train large models (like GPT, BERT, or large
+	CNNs) from scratch, which consume massive amounts of compute resources and electricity.
+	● Reuse of Resources: By reusing pre-trained models, TL maximizes the utility of previously
+	expended computational effort.
+	● Faster Development: TL accelerates research and development cycles, reducing the time and
+	computation spent on iterative processes, thereby saving energy indirectly
+ 10. 
