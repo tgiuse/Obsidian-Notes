@@ -8,4 +8,9 @@
 6. .
 7. Federated Learning (FL) represents a paradigm shift in distributed learning. It's a distributed learning approach where a central server coordinates the collaborative training of a global model across numerous clients.
    This approach can reduce the carbon footprint of computation by minimizing data transfer, particularly from edge devices to centralized servers, and potentially reducing the need for energy-intensive data centers. 
-8. 
+8. To reduce the environmental footprint of AI systems themselves, several optimization strategies are crucial 
+   
+   - Algorithmic Optimization: 
+     Making algorithms more efficient has significant benefits, including reducing their environmental footprint. A productive strategy is designing optimization techniques that reduce computational resource requirements, thereby minimizing energy consumption.
+   - 
+ 
