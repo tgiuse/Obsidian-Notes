@@ -1,5 +1,14 @@
 
-# Third File
+# How to solve the practical exercises
+
+Some useful formulas:
+
+|          | Symbol | Formula                         | Unit      |
+| -------- | ------ | ------------------------------- | --------- |
+| Energy   | E      | E = $\text P \times \text t$    | Joule (J) |
+| Power    | P      | P = $\frac{\text{E}}{\text{t}}$ |           |
+| kWh to J | -      | J = kW * t * 1000               |           |
+
 
 
 
