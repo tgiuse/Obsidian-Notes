@@ -6,9 +6,17 @@ Some useful formulas:
 |          | Symbol | Formula                         | Unit      |
 | -------- | ------ | ------------------------------- | --------- |
 | Energy   | E      | E = $\text P \times \text t$    | Joule (J) |
-| Power    | P      | P = $\frac{\text{E}}{\text{t}}$ |           |
-| kWh to J | -      | J = kW * t * 1000               |           |
+| Power    | P      | P = $\frac{\text{E}}{\text{t}}$ | Watt (W)  |
+| kWh to J | -      | J = kW $\times$ t $\times$ 1000 | Joule (J) |
 
+Flow types:
+
+
+|                     | Completion Time | Total Energy            | Peak           |
+| ------------------- | --------------- | ----------------------- | -------------- |
+| Sequential          | $t_A + t_B$     | $E_A + E_B$             | $max(P_A,P_B)$ |
+| Parallel Concurrent | $max(t_A,t_B)$  | $E_A + E_B$             | $P_A + P_B$    |
+| Parallel Racing     | $min(t_A,t_B)$  | $2 \times min(E_A,E_B)$ | $P_A + P_B$    |
 
 
 
