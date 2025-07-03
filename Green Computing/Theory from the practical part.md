@@ -18,9 +18,9 @@ Flow types:
 | Parallel Concurrent | $max(t_A,t_B)$  | $E_A + E_B$             | $P_A + P_B$    |
 | Parallel Racing     | $min(t_A,t_B)$  | $2 \times min(E_A,E_B)$ | $P_A + P_B$    |
 
+PUE = Power Usage Effectiveness 
 
-
-
+$PUE = \frac{\text{Total Facility Energy}}{\text{IT Equipment Energy}}$
 
 # Fourth File
 
