@@ -1,6 +1,7 @@
 
 1. $$10kW \times 500s \times 1000 = 5, 000, 000 J$$
-2. 
+2. Carbon Emission Intensity (CEI) is the amount of grams of $\text{CO}_2$ that are emitted per kWh, thus it's calculated in the following way: $$CEI = \frac{\text{grams of } \text{CO}_2}{kWh}$$
+   an higher value of CEI means that the electricity is "dirtier"
 
 3. Without this natural greenhouse effect, Earth would be an icy, inhospitable planet. The greenhouse effect raises the Earth's average temperature by about 32 K, creating a stable, life-supporting climate.
 4. In blockchains there are a couple of options to validate a transaction, those being: Proof of work and Proof of Stake.
